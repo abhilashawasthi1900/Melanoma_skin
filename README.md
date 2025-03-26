@@ -31,10 +31,35 @@ The data set contains the following diseases:
 
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+Significant Reduction in Overfitting:
+
+The training and validation accuracy curves are much closer than in previous models, indicating improved generalization.
+
+Validation accuracy has improved, reaching around 80%, suggesting that the model is now learning meaningful patterns rather than memorizing training data.
+
+More Stable Loss Curves:
+
+The training and validation loss curves follow a similar trend, with no sharp divergence, meaning the model is not overfitting as before.
+
+Validation loss no longer increases drastically after a few epochs, indicating that early stopping prevented excessive overfitting.
+
+Effectiveness of Data Augmentation:
+
+The improvement in validation accuracy suggests that augmenting the dataset with transformations (e.g., rotation, flipping, zooming) helped the model learn more generalizable features.
+
+The model is now more robust and less sensitive to variations in input data.
+
+Early Stopping Helped Avoid Overtraining:
+
+Training was stopped at the optimal point before the model started to overfit.
+
+This ensures that the final model has good generalization without unnecessary additional training epochs.
+
+Final Verdict:
+✅ Overfitting is significantly reduced.
+✅ Validation accuracy has improved, indicating better generalization.
+✅ Loss curves suggest stable learning.
+✅ Class rebalancing and augmentation likely helped in performance improvement
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
